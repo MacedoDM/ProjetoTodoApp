@@ -71,7 +71,7 @@ public class MainScreen extends javax.swing.JFrame {
         jPanelEmptyList.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
         jLabelEmptyListIcon.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabelEmptyListIcon.setIcon(new javax.swing.ImageIcon("C:\\Users\\MARCOS\\Google Drive\\Estudos e Trabalhos\\Programação\\Capgemini\\Introdução\\Materiais Compartilhados\\resources\\lists.png")); // NOI18N
+        jLabelEmptyListIcon.setIcon(new javax.swing.ImageIcon(getClass().getResource("/lists.png"))); // NOI18N
 
         jLabelEmptyListTitle.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabelEmptyListTitle.setForeground(new java.awt.Color(0, 153, 102));
@@ -115,7 +115,7 @@ public class MainScreen extends javax.swing.JFrame {
 
         jLabelToolBarTitle.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
         jLabelToolBarTitle.setForeground(new java.awt.Color(255, 255, 255));
-        jLabelToolBarTitle.setIcon(new javax.swing.ImageIcon("C:\\Users\\MARCOS\\Google Drive\\Estudos e Trabalhos\\Programação\\Capgemini\\Introdução\\Materiais Compartilhados\\resources\\tick.png")); // NOI18N
+        jLabelToolBarTitle.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tick.png"))); // NOI18N
         jLabelToolBarTitle.setText("App Tarefas");
         jLabelToolBarTitle.setToolTipText("");
 
@@ -147,7 +147,7 @@ public class MainScreen extends javax.swing.JFrame {
         jLabelProjectsTitle.setForeground(new java.awt.Color(0, 153, 102));
         jLabelProjectsTitle.setText("Projetos");
 
-        jLabelProjectsAdd.setIcon(new javax.swing.ImageIcon("C:\\Users\\MARCOS\\Google Drive\\Estudos e Trabalhos\\Programação\\Capgemini\\Introdução\\Materiais Compartilhados\\resources\\add.png")); // NOI18N
+        jLabelProjectsAdd.setIcon(new javax.swing.ImageIcon(getClass().getResource("/add.png"))); // NOI18N
         jLabelProjectsAdd.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabelProjectsAddMouseClicked(evt);
@@ -182,7 +182,7 @@ public class MainScreen extends javax.swing.JFrame {
         jLabelTasksTitle.setForeground(new java.awt.Color(0, 153, 102));
         jLabelTasksTitle.setText("Tarefas");
 
-        jLabelTasksAdd.setIcon(new javax.swing.ImageIcon("C:\\Users\\MARCOS\\Google Drive\\Estudos e Trabalhos\\Programação\\Capgemini\\Introdução\\Materiais Compartilhados\\resources\\add.png")); // NOI18N
+        jLabelTasksAdd.setIcon(new javax.swing.ImageIcon(getClass().getResource("/add.png"))); // NOI18N
         jLabelTasksAdd.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabelTasksAddMouseClicked(evt);
